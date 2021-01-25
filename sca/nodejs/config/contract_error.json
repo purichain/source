@@ -1,0 +1,191 @@
+{
+    "VALID" : 
+    {
+        "ERROR_CODE" : 0,
+        "MESSAGE" : "Contract is valid"
+    },
+    "JSON_FORMAT" : 
+    {
+        "ERROR_CODE" : 1000,
+        "MESSAGE" : "Contract data is not a json format"
+    },
+    "CONTRACT_FORM" :
+    {
+        "ERROR_CODE" : 1001,
+        "MESSAGE" : "Contract form invalid"
+    },
+    "NOTE_FORM" : {
+        "ERROR_CODE" : 1002,
+        "MESSAGE" : "Contents form invalid"
+    },
+    "CONTENT_FORM" : 
+    {
+        "ERROR_CODE" : 1003,
+        "MESSAGE" : "Content form invalid"
+    },
+    "SMART_CONTRACT_FORM" : 
+    {
+        "ERROR_CODE" : 1004,
+        "MESSAGE" : "Smart Contract form invalid"
+    },
+    "SIGNATURE" : 
+    {
+        "ERROR_CODE" : 1100,
+        "MESSAGE" : "Contract Signature invalid"
+    },
+    "CREATE_TIME" : 
+    {
+        "ERROR_CODE" : 1101,
+        "MESSAGE" : "Contract create time invalid"
+    },
+    "REVISION" : 
+    {
+        "ERROR_CODE" : 1102,
+        "MESSAGE" : "Revision or previous key invalid"
+    },
+    "CONTRACT_KIND": 
+    {
+        "ERROR_CODE" : 1103,
+        "MESSAGE" : "Contract kind invalid"
+    },
+    "NOTE_DATE" : 
+    {
+        "ERROR_CODE" : 1104,
+        "MESSAGE" : "Contents date invalid"
+    },
+    "TO_PK" : 
+    {
+        "ERROR_CODE" : 1105,
+        "MESSAGE" : "To public key invalid"
+    },
+    "INV_BALANCE" : 
+    {
+        "ERROR_CODE" : 1106,
+        "MESSAGE" : "User balance invalid"
+    },
+    "INS_BALANCE" : 
+    {
+        "ERROR_CODE" : 1107,
+        "MESSAGE" : "User balance insufficient"
+    },
+    "AMOUNT" : 
+    {
+        "ERROR_CODE" : 1108,
+        "MESSAGE" : "Amount value negative"
+    },
+    "HW_REG" : 
+    {
+        "ERROR_CODE" : 2000,
+        "MESSAGE" : "Registration of HW can only by Index Server"
+    },
+    "ADD_KFK" : 
+    {
+        "ERROR_CODE" : 2001,
+        "MESSAGE" : "Add Kafka can only be done by Index Server"
+    },
+    "ADD_USER" : 
+    {
+        "ERROR_CODE" : 2002,
+        "MESSAGE" : "User registration can only be done by the user"
+    },
+    "USER_REG_NOTE" :
+    {
+        "ERROR_CODE" : 2003,
+        "MESSAGE" : "Users can use only one note at registration"
+    },
+    "ALREADY_REG" :
+    {
+        "ERROR_CODE" : 2004,
+        "MESSAGE" : "Already registered user"
+    },
+    "FROM_UNREG" : 
+    {
+        "ERROR_CODE" : 2100,
+        "MESSAGE" : "From public key is unregistered"
+    },
+    "TO_UNREG" : 
+    {
+        "ERROR_CODE" : 2101,
+        "MESSAGE" : "To public key is unregistered"
+    },
+    "CHG_ID_UNREG" : 
+    {
+        "ERROR_CODE" : 2200,
+        "MESSAGE" : "Users who are not registered cannot change their ID"
+    },
+    "CHG_PK_UNREG" : 
+    {
+        "ERROR_CODE" : 2201,
+        "MESSAGE" : "Users who are not registered cannot change their Public Key"
+    },
+    "OWNER_PK" :
+    {
+        "ERROR_CODE" : 2202,
+        "MESSAGE" : "Only the owner of the public key can change ID"
+    },
+    "OWNER_ID" : 
+    {
+        "ERROR_CODE" : 2203,
+        "MESSAGE" : "Only the owner of the ID can change the public key"
+    },
+    "NOT_MY_SUBNET" :
+    {
+        "ERROR_CODE" : 2300,
+        "MESSAGE" : "It is not a user logged in to my subnet"
+    },
+    "ALREADY_LOGIN" :
+    {
+        "ERROR_CODE" : 2301,
+        "MESSAGE" : "User already logged in"
+    },
+    "ALREADY_LOGOUT" :
+    {
+        "ERROR_CODE" : 2302,
+        "MESSAGE" : "User already logged out"
+    },
+    "UNREG_LOGIN" :
+    {
+        "ERROR_CODE" : 2303,
+        "MESSAGE" : "Unregistered users cannot log in"
+    },
+    "UNREG_LOGOUT" :
+    {
+        "ERROR_CODE" : 2304,
+        "MESSAGE" : "Unregistered users cannot log out"
+    },
+    "UNREG_LOGOUT_TIMEOUT" :
+    {
+        "ERROR_CODE" : 2305,
+        "MESSAGE" : "Unregistered users cannot log out(time out case)"
+    },
+    "NOT_LOGOUT_STATUS" :
+    {
+        "ERROR_CODE" : 2306,
+        "MESSAGE" : "User can log in only when user is logged out"
+    },
+    "NOT_LOGIN_STATUS" :
+    {
+        "ERROR_CODE" : 2307,
+        "MESSAGE" : "User can log out only when user is logged in"
+    },
+    "USER_STATUS" :
+    {
+        "ERROR_CODE" : 2308,
+        "MESSAGE" : "User is not login or not my subnet topic"
+    },
+    "FB_NO_DATA" :
+    {
+        "ERROR_CODE" : 3000,
+        "MESSAGE" : "Fullblock don't have data of request"
+    },
+    "FB_SVR_ERROR" : 
+    {
+        "ERROR_CODE" : 3001,
+        "MESSAGE" : "Some Error occur in FullblockGateway node"
+    },
+    "UNKNOWN" :
+    {
+        "ERROR_CODE" : 9999,
+        "MESSAGE" : "Unknown error"
+    }
+}
